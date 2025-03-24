@@ -4,18 +4,18 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5803807445434654"
      crossorigin="anonymous"></script>
 <!-- 横向AD -->
-<ins class="adsbygoogle"
+<!-- <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-5803807445434654"
      data-ad-slot="1797038685"
      data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
+     data-full-width-responsive="true"></ins> -->
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes"> 
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="robots" content="noindex,follow">
     <link rel="shortcut icon" href="/assets/images/favicon.png">
     <title>加载中LOADING...</title>
@@ -91,12 +91,12 @@
         if(redirectUrl) {
             let countdown = 1;
             const countdownElement = document.querySelector('.countdown');
-            
+
             // 倒计时函数
             const timer = setInterval(function() {
                 countdown--;
                 countdownElement.textContent = countdown;
-                
+
                 if (countdown <= 0) {
                     clearInterval(timer);
                     let popupCountdown = 5;
@@ -105,33 +105,6 @@
                         html: `
                             <div style="margin-bottom: 10px; text-align: center;">
                                 即将在 <b>${popupCountdown}</b> 秒后自动跳转...
-                            </div>
-                            <div style="background: #f8f9fa; border-radius: 10px; padding: 15px; margin: 10px 0;">
-                                <div style="text-align: center; color: rgb(15, 76, 231); font-size: 18px; font-weight: bold; margin-bottom: 10px;">
-                                    全网最便宜机场|VPN大全
-                                </div>
-                                <!-- 广告图片容器 -->
-                                <div style="text-align: center; margin: 10px 0;">
-                                    <a href="https://jichangvpn.github.io/" target="_blank">
-                                        <img src="/assets/images/vpn.png" alt="广告" 
-                                             style="width: 100%; max-width: 500px; height: 180px; object-fit: cover; border-radius: 8px; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                                    </a>
-                                </div>
-                                <div style="text-align: center; margin: 10px 0;">
-                                    <div style="color: #c30000; font-size: 15px; font-weight: bold; margin-bottom: 8px;">
-                                        智能分流，一键直达
-                                    </div>
-                                    <div style="font-size: 14px; line-height: 1.5; margin-bottom: 12px;">
-                                        ✅国外常用流媒体加速<br/>
-                                        ✅全球多个地区的节点<br/>
-                                        ✅有大流量不限时套餐
-                                    </div>
-                                    <a href="https://jichangvpn.github.io/" 
-                                       target="_blank" 
-                                       style="display: inline-block; padding: 8px 25px; background: #3085d6; color: white; text-decoration: none; border-radius: 5px; transition: background 0.3s; font-size: 15px;">
-                                        立即体验
-                                    </a>
-                                </div>
                             </div>
                         `,
                         icon: "info",
