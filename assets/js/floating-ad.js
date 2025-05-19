@@ -4,12 +4,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const floatingAd = document.createElement('div');
     floatingAd.className = 'floating-ad';
     floatingAd.innerHTML = `
-        <img src="https://tg10000.com/assets/images/logos/TRX兑换.png" alt="广告">
+        <img src="https://tg10000.com/assets/images/logos/电报会员.png" alt="广告">
     `;
 
     // 添加点击事件
     floatingAd.addEventListener('click', function() {
-        window.open('https://trx.tg10000.com', '_blank');
+        window.open('https://shop.tg10000.com', '_blank');
     });
 
     // 将广告添加到页面
