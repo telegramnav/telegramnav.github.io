@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /cdn-cgi/ 
+
+Sitemap: https://www.dianbaodaohang.com/sitemap.xml
