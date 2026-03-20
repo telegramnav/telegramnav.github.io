@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const floatingAd = document.createElement('div');
     floatingAd.className = 'floating-ad';
     floatingAd.innerHTML = `
-        <img src="https://dianbaodaohang.com/assets/images/logos/电报会员.png" alt="广告">
+        <img src="https://telegramnav.github.io/assets/images/logos/电报会员.png" alt="广告">
     `;
 
     // 添加点击事件
